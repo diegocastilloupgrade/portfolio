@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  border: solid 1px #7fb5e6;
+  justify-content: space-between;
+}
+nav {
+  ul {
+    list-style: none;
+    display: flex;
+    li{
+        margin-right: 3rem;
+        .active {font-weight: bold;}
+    }
+  }
+}

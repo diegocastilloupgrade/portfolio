@@ -1,0 +1,62 @@
+[
+  {
+    "marca": "Seat",
+    "modelo": "Ibiza",
+    "pic": "https://pics.me.me/seat-ibiza-bocanegra-2009-coches-de-segunda-mano-y-03794091.png",
+    "tipo": "Deportivo"
+  },
+  {
+    "marca": "Renault",
+    "modelo": "Clio",
+    "pic": "https://i.pinimg.com/736x/6c/c7/1a/6cc71acb08dde614a0f7a6e0f6a342b9--renault-clio-sport-sport-cars.jpg",
+    "tipo": "Utilitario"
+  },
+  {
+    "marca": "Ford",
+    "modelo": "Fiesta",
+    "pic": "https://i.pinimg.com/736x/42/ca/f9/42caf9fec204f456b5e7fb5c5a5eb5bc--ford-fiesta-st-ford-fiesta-zetec.jpg",
+    "tipo": "Deportivo"
+  },
+  {
+    "marca": "Peugeot",
+    "modelo": "208",
+    "pic": "http://www.que-coches.com/imagenes/peugeot/208/galeria/peugeot-208-5p-allure-n/galeria-01.jpg",
+    "tipo": "Utilitario"
+  },
+  {
+    "marca": "Opel",
+    "modelo": "Corsa",
+    "pic": "https://i.pinimg.com/736x/a3/d3/3f/a3d33f0e8959bbf035bdde59547e30b9--opel-corsa-opel-astra.jpg",
+    "tipo": "Utilitario"
+  },
+  {
+    "marca": "Mercedes",
+    "modelo": "Clase A",
+    "pic": "https://i.pinimg.com/736x/e6/91/85/e69185b3bbddcfbdea024aae8f1d9b0f--mercedes-benz-cla-mercedes-cla.jpg",
+    "tipo": "Deportivo"
+  },
+  {
+    "marca": "BMW",
+    "modelo": "Serie 1",
+    "pic": "https://i.pinimg.com/736x/b6/b4/5a/b6b45a9f00ea3f1b9e7a899d0b8996b6--bmw-series-bmw-cars.jpg",
+    "tipo": "Deportivo"
+  },
+  {
+    "marca": "Volkswagen",
+    "modelo": "Polo",
+    "pic": "https://i.pinimg.com/736x/d3/9f/3a/d39f3ae8e8b0ade7b17a0f6546e8fae8--cars-motorcycles-vw-polo.jpg",
+    "tipo": "Utilitario"
+  },
+  {
+    "marca": "Audi",
+    "modelo": "A1",
+    "pic": "https://i.pinimg.com/736x/4f/b4/07/4fb4074d54aa3b3cbeb6d4b78e4c4f11--cars-motorcycles-dream-cars.jpg",
+    "tipo": "Deportivo"
+  },
+  {
+    "marca": "Seat",
+    "modelo": "Leon",
+    "pic": "https://i.pinimg.com/736x/34/b0/d1/34b0d17a55d8b6a8da8ee341e9e5f364--cars-motorcycles-dream-cars.jpg",
+    "tipo": "Deportivo"
+  }
+]

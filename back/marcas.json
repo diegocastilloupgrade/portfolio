@@ -1,0 +1,56 @@
+[
+  {
+    "marca": "Seat",
+    "oficinas": "Martorell, Barcelona, España",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Seat_logo.svg/2000px-Seat_logo.svg.png",
+    "año": 1950
+  },
+  {
+    "marca": "Renault",
+    "oficinas": "Boulogne-Billancourt, Hauts-de-Seine, Francia",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Renault_logo.svg/2000px-Renault_logo.svg.png",
+    "año": 1899
+  },
+  {
+    "marca": "Ford",
+    "oficinas": "Dearborn, Michigan, Estados Unidos",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Ford_Motor_Company_Logo.svg/2000px-Ford_Motor_Company_Logo.svg.png",
+    "año": 1903
+  },
+  {
+    "marca": "Peugeot",
+    "oficinas": "Paris, Francia",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Peugeot_logo.svg/2000px-Peugeot_logo.svg.png",
+    "año": 1896
+  },
+  {
+    "marca": "Opel",
+    "oficinas": "Rüsselsheim am Main, Alemania",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Opel_logo.svg/2000px-Opel_logo.svg.png",
+    "año": 1862
+  },
+  {
+    "marca": "Mercedes",
+    "oficinas": "Stuttgart, Baden-Württemberg, Alemania",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Mercedes_Benz_logo_%282003%29.svg/2000px-Mercedes_Benz_logo_%282003%29.svg.png",
+    "año": 1926
+  },
+  {
+    "marca": "BMW",
+    "oficinas": "Munich, Alemania",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BMW_logo.svg/2000px-BMW_logo.svg.png",
+    "año": 1916
+  },
+  {
+    "marca": "Volkswagen",
+    "oficinas": "Wolfsburg, Alemania",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Volkswagen_logo_%282016%29.svg/2000px-Volkswagen_logo_%282016%29.svg.png",
+    "año": 1937
+  },
+  {
+    "marca": "Audi",
+    "oficinas": "Ingolstadt, Alemania",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Audi_logo.svg/1180px-Audi_logo.svg.png",
+    "año": 1909
+  }
+]
