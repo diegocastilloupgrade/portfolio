@@ -1,11 +1,13 @@
+import { workInterface } from '../models/data.model';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { observable } from 'rxjs';
+
 @Injectable({
   providedIn: 'root',
 })
 export class WorkService {
   constructor(private httpClient: HttpClient) {}
+  public edition:boolean = false;
   public dataURL: string = 'http://localhost:5000/works';
   public workData = {
     id: '',
@@ -18,6 +20,7 @@ export class WorkService {
     disciplina: '',
     tecnologia: '',
     company: '',
+    _id:''
   };
   public clearWork() {
     this.workData = {
@@ -31,10 +34,12 @@ export class WorkService {
       disciplina: '',
       tecnologia: '',
       company: '',
+      _id:''
     };
   }
   public editItem(item: any) {
     this.workData = item;
+    this.edition = true;
   }
   public getWorks() {
     return this.httpClient.get(this.dataURL);

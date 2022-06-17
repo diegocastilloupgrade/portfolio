@@ -5,27 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './core/header/header.component';
 import { FooterComponent } from './core/footer/footer.component';
-import { HomeComponent } from './pages/home/home.component';
-import { SubtitleComponent } from './shared/subtitle/subtitle.component';
-import { BioComponent } from './pages/gallery/components/bio/bio.component';
 import { CompaniesComponent } from './pages/gallery/components/companies/companies.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent,
-    SubtitleComponent,
-    BioComponent,
-    CompaniesComponent
+    CompaniesComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -1,3 +1,5 @@
+import { AppRoutingModule } from './../../app-routing.module';
+import { Router, NavigationEnd } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { WorkService } from 'src/app/services/dataservice.service';
 import { workInterface } from 'src/app/models/data.model';
@@ -11,14 +13,19 @@ export class GalleryComponent implements OnInit {
   public works: workInterface[] = [];
   public worksFiltrados!: any;
 
-  constructor(private WorkService: WorkService) {}
+  constructor(private WorkService: WorkService, private router: Router) {
+    console.log(router.url);
+  }
 
   ngOnInit(): void {
     this.WorkService.getWorks().subscribe((data: any) => {
-      this.works = data;
+      this.works = data.works;
+      console.log("esto es works", this.works);
       this.worksFiltrados = this.works;
-
-      /*      const dataAPI: workInterface[] = data.works.map((mydata: any) => {
+      console.log("esto es worksFiltrados", this.worksFiltrados);
+      
+      /*      
+      const dataAPI: workInterface[] = data.works.map((mydata: any) => {
         id:mydata.id,
         nombre_proyecto: mydata.nombre_proyecto,
         descripcion_breve: mydata.descripcion_breve,
@@ -37,7 +44,7 @@ export class GalleryComponent implements OnInit {
     });
   }
   public filtrarWork = (valorInput: string) => {
-    this.worksFiltrados = this.works.filter(work => {
+    this.worksFiltrados = this.works.filter((work) => {
       return work.nombre_proyecto.toLowerCase().includes(valorInput.toLowerCase());
     });
   };
